@@ -7,4 +7,5 @@ def wordCount(sentence)
 	return freq
 end
 
-puts wordCount("hello world! hello hello sir")
+puts "Hey gimme some string. I'll count the words therein for you"
+puts wordCount(gets.chomp)
